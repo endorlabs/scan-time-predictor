@@ -1,10 +1,10 @@
 GitPython==3.1.40
-requests==2.26.0
+requests==2.32.2
 pygount
 argparse
 build
 GitPython==3.1.40
-requests==2.26.0
+requests==2.32.2
 pygount
 pandas
 scikit-learn
