@@ -1,4 +1,4 @@
-GitPython==3.1.40
+GitPython==3.1.41
 requests==2.26.0
 pygount
 pandas
