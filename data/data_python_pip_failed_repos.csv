@@ -1,0 +1,4 @@
+Language,GitURL,GitRef,BuildTool,BuildStatus,ErrorMessage
+python,https://github.com/ewilk0/poker_bot_tournament,fca1a860da60a4a3e8a56534f89db696fdc647db,pip,fail,"Command '['python3', '-m', 'venv', 'venv']' returned non-zero exit status 1."
+python,https://github.com/Znipermonkey/unit-3-project,381db95f432c92bc0ff1c5db50b519f8454f6e1c,pip,fail,"Command '['python3', '-m', 'venv', 'venv']' returned non-zero exit status 1."
+python,https://github.com/open-formulieren/open-forms,3b2756c9cc61fa3b6d132a56cf9f7f94c78486e9,pip,fail,"Command '['python3', '-m', 'venv', 'venv']' returned non-zero exit status 1."
