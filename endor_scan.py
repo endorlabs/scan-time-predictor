@@ -290,8 +290,8 @@ def main():
     args = parser.parse_args()
     cfg_file = args.repo_list
     log.info("Using config-file  = {}".format(cfg_file))
-    if "SCP_ENDOR_NAMESPACE" not in os.environ or "SCP_ENDOR_API_CREDENTIALS_KEY" not in os.environ or "SCP_ENDOR_API_CREDENTIALS_SECRET" not in os.environ or "SCP_ENDOR_API" not in os.environ:
-        log.error(f"The environment variable SCP_ENDOR_NAMESPACE or SCP_ENDOR_API_CREDENTIALS_KEY or SCP_ENDOR_API_CREDENTIALS_SECRET or SCP_ENDOR_API is not set.")  
+    if "ENDOR_NAMESPACE" not in os.environ or "ENDOR_API_CREDENTIALS_KEY" not in os.environ or "ENDOR_API_CREDENTIALS_SECRET" not in os.environ or "ENDOR_API" not in os.environ:
+        log.error(f"The environment variable ENDOR_NAMESPACE or ENDOR_API_CREDENTIALS_KEY or ENDOR_API_CREDENTIALS_SECRET or ENDOR_API is not set.")  
         sys.exit(1)
     endorctl_scan(cfg_file)
 
